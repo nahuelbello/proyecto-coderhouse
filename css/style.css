@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+
+
+/* GRID */
+body {
+    background-color: #C3B299;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 2fr 2fr 1fr ;
+    grid-template-areas:
+        "nav nav nav nav"
+        "main main main main"
+        "main main main main"
+        "footer footer footer footer";
+}
+
+nav { 
+    grid-area: nav;
+    background-color: rgb(255, 214, 8);
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #CBD4C2;
+}
+
+
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img {
+    height: 90%;
+    margin-top: 4px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 10px;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    color:#424342;
+}
+
+
+
+/* MAIN - CARDS */
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15%;
+}
+
+.card {
+    width: 280px;
+    height: 440px;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 5% 5% 0 0;
+}
+
+.card-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.text p{
+    margin: 20px 0px;
+}
+
+.card:hover {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-15px);
+    transition: 0.25s;
+}
+
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 10%;
+}
+
+footer h2 {
+    margin-bottom: 5%;
+}
+
+footer li {
+    margin: 2.5% 0;
+}
+
+.info ul {
+    margin-top: 8%;
+}
+
+.contact ul li a {
+    display: flex;
+    align-items: center;
+}
+
+.contact ul li a p {
+    margin-left: 5%;
+}
+
+.follow div {
+    display: flex;
+    margin-top: 10%;
+}
+
+.follow a {
+    margin-right: 10%;
+}
