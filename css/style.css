@@ -116,8 +116,13 @@ footer h6 {
 
 /* PAGES */
 .conditions, .payment, .faq, .about-us {
-    margin-left: 10%;
+    margin: auto;
     font-size: 1rem;
+    max-width: 50%;
+}
+
+.conditions ul, .payment ul, .faq ul, .about-us ul {
+    padding: 0;
 }
 
 .conditions ul li, .payment ul li{
