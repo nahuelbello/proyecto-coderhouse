@@ -111,3 +111,39 @@ footer h6 {
     text-align: center;
     margin: 0;
 }
+
+
+
+/* PAGES */
+.conditions, .payment, .faq, .about-us {
+    margin-left: 10%;
+    font-size: 1rem;
+}
+
+.conditions ul li, .payment ul li{
+    margin: 1% 0;
+}
+
+
+
+/* CONTACT PAGE */
+.contact-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-map{
+    overflow: hidden;
+    padding-bottom: 25%;
+    margin: 1% 20%;
+    position: relative;
+    height: 0;
+}
+
+.contact-map iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
