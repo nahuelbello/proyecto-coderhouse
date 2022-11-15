@@ -70,28 +70,23 @@ footer div {
     justify-content: space-around;
 }
 
-footer h2 {
-    margin-bottom: 5%;
-}
-
 footer ul {
     padding: 0;
+    margin-top: 5%;
 }
 
 footer li {
     margin: 2.5% 0;
 }
 
-.info ul {
-    margin-top: 8%;
-}
-
-.contact ul li a {
+.contact ul li {
     display: flex;
     align-items: center;
+    margin-top: 5%;
 }
 
-.contact ul li a p {
+.contact ul li p {
+    margin: auto;
     margin-left: 5%;
 }
 
