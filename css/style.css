@@ -1,16 +1,30 @@
 * {
-    text-decoration: none !important;
-    list-style: none !important;
-    font-family: 'Roboto', sans-serif !important;
-    color: black !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 body {
     background-color: #dedede;
+    font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
-.active, a:hover {
-    color:#6e6e6e !important;
+.navbar-nav .nav-link.active, a:hover, .nav-link:hover {
+    color: #6e6e6e;
+}
+
+.nav-link {
+    color: black;
 }
 
 
@@ -309,4 +323,9 @@ footer h6 {
     .conditions ul li, .payment ul li{
         margin: 3% 0;
     }
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
 }
