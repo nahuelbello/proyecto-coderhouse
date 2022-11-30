@@ -1,331 +1,217 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 li {
-    list-style: none;
-}
+  list-style: none; }
 
 a {
-    text-decoration: none;
-    color: black;
-}
-
-body {
-    background-color: #dedede;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-}
-
-.navbar-nav .nav-link.active, a:hover, .nav-link:hover {
-    color: #6e6e6e;
-}
-
-.nav-link {
-    color: black;
-}
-
-
-
-/* NAV */
-nav {
-    background-color: #FFD608;
-    font-size: 1.125rem;
-}
-
-.nav-item {
-    margin-left: 2rem;
-    letter-spacing: 0.1rem;
-}
-
-
-
-/* MAIN */
-main {
-    margin: 5rem 0;
-}
+  text-decoration: none;
+  color: black; }
 
 h1 {
-    margin-bottom: 4rem;
-    text-align: center;
-    letter-spacing: 0.25rem;
-}
+  margin-bottom: 4rem;
+  text-align: center;
+  letter-spacing: 0.25rem; }
 
+main {
+  margin: 5rem 0; }
 
-/* CARDS */
-.card {
-    border-radius: 5%;
-    box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.2);
-}
+body {
+  background-color: #dedede;
+  font-family: 'Roboto', sans-serif;
+  color: black; }
 
-.card img {
-    border-radius: 5%;
-}
-
-.card:hover {
-    box-shadow: 0 0.75rem 1.25rem rgba(0, 0, 0, 0.4);
-    transform: translateY(-0.9375rem);
-    transition: 0.25s;
-}
-
-
-
-/* FOOTER */
 footer {
-    background-color: #99948c;
-    padding: 1% 10%;
-}
-
-footer div {
+  background-color: #99948c;
+  padding: 1% 10%; }
+  footer div {
     display: flex;
-    justify-content: space-around;
-}
-
-footer ul {
+    justify-content: space-around; }
+  footer ul {
     padding: 0;
-    margin-top: 5%;
-}
-
-footer li {
-    margin: 2.5% 0;
-}
+    margin-top: 5%; }
+  footer li {
+    margin: 2.5% 0; }
+  footer h6 {
+    text-align: center;
+    margin: 0; }
 
 .contact ul li {
-    display: flex;
-    align-items: center;
-    margin-top: 5%;
-}
-
-.contact ul li p {
+  display: flex;
+  align-items: center;
+  margin-top: 5%; }
+  .contact ul li p {
     margin: auto;
-    margin-left: 5%;
-}
+    margin-left: 5%; }
 
 .follow div {
-    display: flex;
-    margin-top: 10%;
-    margin-left: 10%;
-}
+  display: flex;
+  margin-top: 10%;
+  margin-left: 10%; }
 
 .follow a {
-    margin-right: 10%;
-}
+  margin-right: 10%; }
 
 .line {
-    border-top: 0.0625rem solid black;
-    height: 0.125rem;
-    max-width: 35%;
-    margin: 0.5rem auto;
-}
+  border-top: 0.0625rem solid black;
+  height: 0.125rem;
+  max-width: 35%;
+  margin: 0.5rem auto; }
 
-footer h6 {
-    text-align: center;
-    margin: 0;
-}
+nav {
+  background-color: #FFD608;
+  font-size: 1.125rem; }
 
+.nav-item {
+  margin-left: 2rem;
+  letter-spacing: 0.1rem; }
 
+.navbar-nav .nav-link.active, a:hover, .nav-link:hover {
+  color: #6e6e6e; }
 
-/* PAGES */
-.conditions, .payment, .faq, .about-us {
-    margin: auto;
-    font-size: 1rem;
-    max-width: 50%;
-}
+.nav-link {
+  color: black; }
 
-.conditions ul, .payment ul, .faq ul, .about-us ul {
-    padding: 0;
-}
+.card {
+  border-radius: 5%;
+  box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.2); }
+  .card img {
+    border-radius: 5%; }
+  .card:hover {
+    box-shadow: 0 0.75rem 1.25rem rgba(0, 0, 0, 0.4);
+    transform: translateY(-0.9375rem);
+    transition: 0.25s; }
 
-.conditions ul li, .payment ul li{
-    margin: 1% 0;
-}
+.about-us {
+  margin: auto;
+  font-size: 1rem;
+  max-width: 50%; }
+  .about-us ul {
+    padding: 0; }
 
+.conditions {
+  margin: auto;
+  font-size: 1rem;
+  max-width: 50%; }
+  .conditions ul {
+    padding: 0; }
+    .conditions ul li {
+      margin: 1% 0; }
 
-
-/* CONTACT PAGE */
 .contact-section {
-    display: flex;
-    justify-content: space-evenly;
-}
+  display: flex;
+  justify-content: space-evenly; }
 
-.contact-map{
-    overflow: hidden;
-    padding-bottom: 40%;
-    margin: 1% 10%;
-    position: relative;
-    height: 0;
-}
-
-.contact-map iframe{
+.contact-map {
+  overflow: hidden;
+  padding-bottom: 40%;
+  margin: 1% 10%;
+  position: relative;
+  height: 0; }
+  .contact-map iframe {
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-    position: absolute;
-}
+    position: absolute; }
 
+.faq {
+  margin: auto;
+  font-size: 1rem;
+  max-width: 50%; }
+  .faq ul {
+    padding: 0; }
 
-
-
-
+.payment {
+  margin: auto;
+  font-size: 1rem;
+  max-width: 50%; }
+  .payment ul {
+    padding: 0; }
+    .payment ul li {
+      margin: 1% 0; }
 
 /* MEDIA MOBILE */
-@media screen and (max-width: 572px) {
-    /* MAIN */
-    main {
-        margin: 0;
-    }
-    
-    h1 {
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        text-align: center;
-        letter-spacing: 0.125rem;
-    }
-
-
-
-    /* CARDS */
-    .card {
-        margin: 1rem 0;
-    }
-
-
-
-    /* FOOTER */
-    footer {
-        margin-top: 2rem;
-    }
-
+@media screen and (max-width: 992px) {
+  /* MAIN */
+  main {
+    margin: 0; }
+  h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    letter-spacing: 0.125rem; }
+  /* CARDS */
+  .card {
+    margin: 1rem 0; }
+  /* FOOTER */
+  footer {
+    margin-top: 2rem; }
     footer h2 {
-        margin: 1rem 0;
-    }
-
-    footer div {
-        flex-direction: column;
-    }
-
-    .contact ul li {
-        margin-top: 0;
-    }
-
-    .follow div {
-        flex-direction: row;
-        justify-content: flex-start;
-        margin: 0;
-    }
-
-    .follow a {
-        margin: 0 2%;
-    }
-    
-    .line {
-        margin-top: 5%;
-        max-width: 75%;
-    }
-
-
-
-    /* PAGES */
-    .conditions, .payment, .faq, .about-us {
-        margin: 5% auto;
-        font-size: 0.875rem;
-    }
-
-    .conditions ul li, .payment ul li{
-        margin: 3% 0;
-    }
-
-
-
-    /* CONTACT PAGE */
-    .contact-section {
-        display: flex;
-        flex-direction: column;
-        margin-left: 10%;
-    }
-
-    .contact-map{
-        padding-bottom: 75%;
-    }
-}
-
-
-
-
-
+      margin: 1rem 0; }
+      footer h2 div {
+        flex-direction: column; }
+  .contact ul li {
+    margin-top: 0; }
+  .follow div {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0; }
+    .follow div a {
+      margin: 0 2%; }
+  .line {
+    margin-top: 5%;
+    max-width: 75%; }
+  /* PAGES */
+  .conditions, .payment, .faq, .about-us {
+    margin: 5% auto;
+    font-size: 0.875rem; }
+  .conditions ul li, .payment ul li {
+    margin: 3% 0; }
+  /* CONTACT PAGE */
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%; }
+  .contact-map {
+    padding-bottom: 75%; } }
 
 /* MEDIA TABLET */
-@media screen and (max-width: 992px) {
-    /* MAIN */
-    main {
-        margin: 0;
-    }
-    
-    h1 {
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        text-align: center;
-        letter-spacing: 0.125rem;
-    }
-
-
-
-    /* CARDS */
-    .card {
-        margin: 1rem 0;
-    }
-
-
-
-    /* FOOTER */
-    footer {
-        margin-top: 2rem;
-    }
-
+@media screen and (max-width: 572px) {
+  /* MAIN */
+  main {
+    margin: 0; }
+  h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    letter-spacing: 0.125rem; }
+  /* CARDS */
+  .card {
+    margin: 1rem 0; }
+  /* FOOTER */
+  footer {
+    margin-top: 2rem; }
     footer h2 {
-        margin: 1rem 0;
-    }
-
-    footer div {
-        flex-direction: column;
-    }
-
-    .contact ul li {
-        margin-top: 0;
-    }
-
-    .follow div {
-        flex-direction: row;
-        justify-content: flex-start;
-        margin: 0;
-    }
-
-    .follow a {
-        margin: 0 2%;
-    }
-    
-    .line {
-        margin-top: 5%;
-        max-width: 75%;
-    }
-
-
-
-    /* PAGES */
-    .conditions, .payment, .faq, .about-us {
-        margin: 3% auto;
-        font-size: 0.875rem;
-    }
-
-    .conditions ul li, .payment ul li{
-        margin: 3% 0;
-    }
-}
-
-a {
-    text-decoration: none;
-    list-style: none;
-}
+      margin: 1rem 0; }
+      footer h2 div {
+        flex-direction: column; }
+  .contact ul li {
+    margin-top: 0; }
+  .follow div {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0; }
+    .follow div a {
+      margin: 0 2%; }
+  .line {
+    margin-top: 5%;
+    max-width: 75%; }
+  /* PAGES */
+  .conditions, .payment, .faq, .about-us {
+    margin: 3% auto;
+    font-size: 0.875rem; }
+  .conditions ul li, .payment ul li {
+    margin: 3% 0; } }
