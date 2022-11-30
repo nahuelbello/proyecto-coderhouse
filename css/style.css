@@ -90,6 +90,8 @@ footer {
   max-width: 50%; }
   .about-us ul {
     padding: 0; }
+  .about-us strong {
+    font-weight: normal; }
 
 .conditions {
   margin: auto;
