@@ -23,6 +23,20 @@ body {
   font-family: 'Roboto', sans-serif;
   color: black; }
 
+nav {
+  background-color: #FFD608;
+  font-size: 1.125rem; }
+
+.nav-item {
+  margin-left: 2rem;
+  letter-spacing: 0.1rem; }
+
+.navbar-nav .nav-link.active, a:hover, .nav-link:hover {
+  color: #6e6e6e; }
+
+.nav-link {
+  color: black; }
+
 footer {
   background-color: #99948c;
   padding: 1% 10%; }
@@ -59,20 +73,6 @@ footer {
   height: 0.125rem;
   max-width: 35%;
   margin: 0.5rem auto; }
-
-nav {
-  background-color: #FFD608;
-  font-size: 1.125rem; }
-
-.nav-item {
-  margin-left: 2rem;
-  letter-spacing: 0.1rem; }
-
-.navbar-nav .nav-link.active, a:hover, .nav-link:hover {
-  color: #6e6e6e; }
-
-.nav-link {
-  color: black; }
 
 .card {
   border-radius: 5%;
@@ -151,8 +151,8 @@ nav {
     margin-top: 2rem; }
     footer h2 {
       margin: 1rem 0; }
-      footer h2 div {
-        flex-direction: column; }
+    footer div {
+      flex-direction: column; }
   .contact ul li {
     margin-top: 0; }
   .follow div {
@@ -196,8 +196,8 @@ nav {
     margin-top: 2rem; }
     footer h2 {
       margin: 1rem 0; }
-      footer h2 div {
-        flex-direction: column; }
+    footer div {
+      flex-direction: column; }
   .contact ul li {
     margin-top: 0; }
   .follow div {
