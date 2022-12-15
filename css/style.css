@@ -37,6 +37,12 @@ nav {
 .nav-link {
   color: black; }
 
+.navbar-toggler {
+  border: none; }
+
+.navbar-toggler:focus {
+  box-shadow: none; }
+
 footer {
   background-color: #99948c;
   padding: 1% 10%; }

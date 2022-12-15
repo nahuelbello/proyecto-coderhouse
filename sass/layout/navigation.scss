@@ -11,3 +11,11 @@ nav {
 
 .nav-link {
     color: black; }
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
